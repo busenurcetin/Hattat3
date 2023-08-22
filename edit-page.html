@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--NAVBAR-->
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+  integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+/>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<nav class="navbar">
+  <div class="navbar-container container">
+      <input type="checkbox" name="" id="">
+      <div class="hamburger-lines">
+          <span class="line line1"></span>
+          <span class="line line2"></span>
+          <span class="line line3"></span>
+      </div>
+      <ul class="menu-items" >
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="subscription.html" id="subscription-link">Subscription</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+          <li><a href="#connect" id="connect-button">Connect Wallet</a></li>
+          <script src="https://cdn.jsdelivr.net/npm/web3@1.5.2/dist/web3.min.js"></script>
+      </ul>
+      <h1 class="logo">DrawHat3</h1>
+  </div>
+</nav>
+<!--NAVBAR END-->
+
+<!-- CANVAS -->
+
+<div class="image-container">
+    <canvas id="nft-canvas" width="500" height="500"></canvas>
+</div>
+
+<div class="canvas-palette">
+    <div class="color-palette">
+      <button class="color" style="background-color: #000;"></button>
+      <button class="color" style="background-color: #ff0000;"></button>
+        <button class="color" style="background-color: #ffff00;"></button>
+        <button class="color" style="background-color: #00ff00;"></button>
+        <button class="color" style="background-color: #00ffff;"></button>
+        <button class="color" style="background-color: #0000ff;"></button>
+        <button class="color" style="background-color: #ff00ff;"></button>
+        <button class="color" style="background-color: #ffffff;"></button>
+    </div>
+
+    <div class="button-container2">
+        <button id="triangle-button" class="buttons1">Draw</button>
+        <button id="circle-button" class="buttons1">Draw Circle</button>
+        <button id="rectangle-button" class="buttons1">Draw Rectangle</button>
+    </div>
+
+    <input type="range" id="brush-size" min="1" max="20" value="5">
+  
+</div>
+
+<div class="download-section">
+<button id="download-button2">Download <i class="fa fa-download"></i></button>
+</div>
+
+<script src="edit.script.js"></script>
+</body>
+</html>
