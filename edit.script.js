@@ -34,18 +34,37 @@ canvas.addEventListener("mousedown", (e) => {
   [lastX, lastY] = [e.offsetX, e.offsetY];
 });
 
+function drawUserName(name) {
+    context.fillStyle = "white";
+    context.font = "40px Arial";
+    context.textBaseline = "bottom"; // Yazının alt taban çizgisine hizala
+    const textWidth = context.measureText(name).width;
+    const x = canvas.width - textWidth - 20; // Sağdan 10px içeriye
+    const y = canvas.height - 20; // Alt kenardan 10px içeriye
+    context.fillText(name, x, y);
+}
+
+
 canvas.addEventListener("mousemove", draw);
 canvas.addEventListener("mouseup", () => (isDrawing = false));
 canvas.addEventListener("mouseout", () => (isDrawing = false));
 
 const downloadButton = document.getElementById("download-button2");
 downloadButton.addEventListener("click", () => {
+    const confirmDownload = confirm("Would you like your name to appear on the image?");
+    
+    if (confirmDownload) {
+        const userName = prompt("Please enter your name:");
+        // İsimi resmin sağ alt köşesine yazdır
+        drawUserName(userName);
+    }
     const imageDataURL = canvas.toDataURL("image/png");
     const downloadLink = document.createElement("a");
     downloadLink.href = imageDataURL;
-    downloadLink.download = "your_nft.png"; 
+    downloadLink.download = "your_nft.png";
     downloadLink.click();
 });
+
 
 
 // Canvas
@@ -160,3 +179,6 @@ function setShape(newShape) {
   shape = newShape;
   currentPath = [];
 }
+
+
+
