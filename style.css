@@ -1024,3 +1024,9 @@ p {
   margin-top: 20px;
   margin-bottom: 80px;
 }
+
+.twitter-btn{
+  text-align: center;
+  margin-bottom: 60px;
+  align-items: center;
+}
