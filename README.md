@@ -42,7 +42,6 @@ Proje bitti.
 
 
 ## İletişim
-[Twitter - @Tugçe Yalçın](https://twitter.com/0phoenix_) Proje fikrinin sahibi olduğu için projenin hakları Tuğçe Yalçın'a aittir.
 [Twitter - @busenurcetin16](https://twitter.com/busenurcetin16) tarafından projenin arayüzü yapıldı.
 
 
