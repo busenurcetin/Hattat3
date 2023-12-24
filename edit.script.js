@@ -36,7 +36,8 @@ canvas.addEventListener("mousedown", (e) => {
 
 function drawUserName(name) {
     context.fillStyle = "white";
-    context.font = "40px Arial";
+    context.strokeStyle = "black";
+    context.font = "44px Arial";
     context.textBaseline = "bottom"; // Yazının alt taban çizgisine hizala
     const textWidth = context.measureText(name).width;
     const x = canvas.width - textWidth - 20; // Sağdan 10px içeriye
