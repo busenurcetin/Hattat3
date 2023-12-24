@@ -1,18 +1,21 @@
-# Hattat3
+# HattatWeb
 
-> Bu projeyi gelenekselleşmiş hattat sanatını web3'ye uyarlamak için yaptık, projenin amacı geleneği geleceğe taşımak.
-> Proje web3 projesi olarak yapılmaya başlandı hatta cüzdan bağlantısı kısmı bile var fakat web3 kısmı (açık kaynak kodlarda da görüldüğü gibi) tamamlanmadı. Şimdilik proje isimlendirmesi dışında web3'ye dair hiçbir özellik taşımamaktadır.
+> Bu projeyi gelenekselleşmiş hattat sanatını web2'ya uyarlamak için yaptık, projenin amacı geleneği geleceğe taşımak.
+> Proje web3 projesi olarak yapılmaya başlandı hatta cüzdan bağlantısı kısmı bile var fakat web3 kısmı (açık kaynak kodlarda da görüldüğü gibi) tamamlanmadı. Şimdilik web3'ye dair hiçbir özellik taşımamaktadır.
 
 > Canlı Proje [_tıkla_](https://hattat3.vercel.app/#about).
 
 ## İçerik
-* [Genel Bilgi](#general-information)
-* [Kullanılan Teknolojiler](#technologies-used)
-* [Features](#features)
-* [Projeye Bakış](#screenshots)
-* [Proje Durumu](#project-status)
-* [Bilgilendirme](#acknowledgements)
-* [İletişim](#contact)
+- [HattatWeb](#hattatweb)
+  - [İçerik](#i̇çerik)
+  - [Genel Bilgi](#genel-bilgi)
+  - [Kullanılan Teknolojiler](#kullanılan-teknolojiler)
+  - [Features](#features)
+  - [Projeye Bakış](#projeye-bakış)
+  - [Proje Durumu](#proje-durumu)
+  - [Bilgilendirme](#bilgilendirme)
+  - [İletişim](#i̇letişim)
+  - [License](#license)
 
 
 ## Genel Bilgi
